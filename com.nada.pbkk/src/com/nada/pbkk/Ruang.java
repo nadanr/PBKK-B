@@ -13,4 +13,14 @@ public abstract class Ruang {
 		return id;
 	}
 
+	public Ruang(float tinggi, float lebar, float panjang, int id) {
+		super();
+		this.tinggi = tinggi;
+		this.lebar = lebar;
+		this.panjang = panjang;
+		this.id = id;
+	}
+	
+	
+
 }

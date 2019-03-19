@@ -7,8 +7,8 @@ public class Kelas extends Ruang {
 		return idkelas;
 	}
 
-	public Kelas(String idkelas) {
-		super();
+	public Kelas(String idkelas, float tgruang, float lbruang, float pjruang, int idruang) {
+		super(tgruang, lbruang, pjruang, idruang);
 		this.idkelas = idkelas;
 	}
 }
