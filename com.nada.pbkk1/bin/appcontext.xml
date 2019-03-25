@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd 
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="myKelas" 
+    	class="com.nada.pbkk1.Kelas">
+    	
+    	<!-- Injecting literal value >
+    	<property name="tgruang" value="3"></property>
+    	<property name="lbruang" value="4"></property>
+    	<property name="pjruang" value="4"></property>
+    	<property name="idruang" value="0"></property>
+    	<property name="idkelas" value="IPA-2"></property-->
+    	<constructor-arg value="IPA-2" />
+    	<constructor-arg value="3" />
+    	<constructor-arg value="4" />
+    	<constructor-arg value="4" />
+    	<constructor-arg value="0" />
+    	
+    </bean>
+	
+
+</beans>
